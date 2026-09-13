@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mokaanth Dasarathan, Full-Stack Developer and B.E. Computer Science student at Easwari Engineering College (SRM Group), based in Greater Chennai Area." />
+  <title>Mokaanth Dasarathan | Full-Stack Developer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="nav-inner">
+      <a href="#about" class="nav-logo" aria-label="Mokaanth Dasarathan, home">MD</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about"        class="nav-link" id="navlink-about">About</a></li>
+          <li><a href="#skills"       class="nav-link" id="navlink-skills">Skills</a></li>
+          <li><a href="#projects"     class="nav-link" id="navlink-projects">Projects</a></li>
+          <li><a href="#education"    class="nav-link" id="navlink-education">Education</a></li>
+          <li><a href="#contact"      class="nav-link" id="navlink-contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="mokaanth-dasarathan-cv.pdf" class="btn btn-outline nav-cta" download>Download CV</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="about-label">Full-Stack Development Intern at Thiranex</p>
+          <h1 class="about-name">Mokaanth Dasarathan</h1>
+          <p class="about-bio">
+            B.E. Computer Science and Engineering student at Easwari Engineering College (SRM Group),
+            currently working as a Full Stack Development Intern at Thiranex. I build web applications
+            across the full stack using React, Node.js, and Python, and have a parallel interest in
+            IoT and embedded systems.
+          </p>
+          <p class="about-bio">
+            Certified through Cisco, Deloitte, Tata Group, Electronic Arts, and LetsUpgrade.
+            Based in the Greater Chennai Area and open to internship and junior developer opportunities.
+          </p>
+          <div class="about-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="https://www.linkedin.com/in/mokaanth-dasarathan-7271282a5/" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#contact" class="btn btn-outline">Contact</a>
+          </div>
+        </div>
+        <div class="about-avatar-wrap">
+          <img src="profile.png" alt="Mokaanth Dasarathan" class="about-avatar" />
+          <div class="about-availability">
+            <span class="availability-dot"></span>
+            Open to opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <h3 class="skill-group-heading">
+              <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <rect x="2" y="4" width="16" height="13" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M6 8l3 3-3 3M10 14h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Frontend
+            </h3>
+            <ul class="skill-list">
+              <li>React.js</li>
+              <li>JavaScript</li>
+              <li>HTML and CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-heading">
+              <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M10 6v4l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              Backend
+            </h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>Programming fundamentals</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-heading">
+              <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <ellipse cx="10" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M2 6v4c0 1.66 3.58 3 8 3s8-1.34 8-3V6" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M2 10v4c0 1.66 3.58 3 8 3s8-1.34 8-3v-4" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              Data
+            </h3>
+            <ul class="skill-list">
+              <li>Data Structures</li>
+              <li>Data Modeling</li>
+              <li>Data Analysis</li>
+              <li>Data Visualization Tools</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-heading">
+              <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M4 8l6-5 6 5v9a1 1 0 01-1 1H5a1 1 0 01-1-1V8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <rect x="8" y="12" width="4" height="6" rx="0.5" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              Systems
+            </h3>
+            <ul class="skill-list">
+              <li>Computer Networking</li>
+              <li>IoT and Embedded Systems</li>
+              <li>Log Analysis</li>
+              <li>Planning</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-heading">Projects</h2>
+        <div class="projects-grid">
+
+          <!-- sb-farms -->
+          <article class="project-card" id="project-sb-farms">
+            <div class="project-thumb" style="background:#f0fdf4;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="SB Farms website layout mockup">
+                <rect width="480" height="240" fill="#f0fdf4"/>
+                <rect x="0" y="0" width="480" height="32" fill="#dcfce7"/>
+                <rect x="16" y="10" width="60" height="12" rx="2" fill="#15803d"/>
+                <rect x="320" y="10" width="44" height="12" rx="2" fill="#bbf7d0"/>
+                <rect x="372" y="10" width="44" height="12" rx="2" fill="#bbf7d0"/>
+                <rect x="424" y="8" width="40" height="16" rx="3" fill="#16a34a"/>
+                <rect x="0" y="32" width="480" height="96" fill="#bbf7d0"/>
+                <rect x="48" y="56" width="200" height="18" rx="3" fill="#14532d"/>
+                <rect x="48" y="82" width="260" height="9" rx="2" fill="#166534" opacity="0.5"/>
+                <rect x="48" y="104" width="80" height="20" rx="3" fill="#16a34a"/>
+                <rect x="16" y="144" width="136" height="80" rx="6" fill="#fff" stroke="#bbf7d0" stroke-width="1"/>
+                <rect x="16" y="144" width="136" height="44" rx="6" fill="#dcfce7"/>
+                <rect x="26" y="196" width="80" height="8" rx="2" fill="#374151"/>
+                <rect x="168" y="144" width="136" height="80" rx="6" fill="#fff" stroke="#bbf7d0" stroke-width="1"/>
+                <rect x="168" y="144" width="136" height="44" rx="6" fill="#bbf7d0"/>
+                <rect x="178" y="196" width="80" height="8" rx="2" fill="#374151"/>
+                <rect x="320" y="144" width="144" height="80" rx="6" fill="#fff" stroke="#bbf7d0" stroke-width="1"/>
+                <rect x="320" y="144" width="144" height="44" rx="6" fill="#dcfce7"/>
+                <rect x="330" y="196" width="80" height="8" rx="2" fill="#374151"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">SB Farms</h3>
+              <p class="project-desc">A farming and agriculture website. Built and deployed on Vercel.</p>
+              <div class="project-links">
+                <a href="https://sb-farms.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/SB-Farms" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- smart-transit-crash-telemetry-hub -->
+          <article class="project-card" id="project-smart-transit">
+            <div class="project-thumb" style="background:#eff6ff;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="Smart Transit Crash Telemetry Hub layout mockup">
+                <rect width="480" height="240" fill="#eff6ff"/>
+                <rect x="0" y="0" width="480" height="32" fill="#1e3a8a"/>
+                <rect x="16" y="10" width="130" height="12" rx="2" fill="#93c5fd"/>
+                <rect x="408" y="8" width="56" height="16" rx="3" fill="#3b82f6"/>
+                <rect x="0" y="32" width="300" height="208" fill="#dbeafe"/>
+                <path d="M0 120 Q60 90 120 130 Q180 170 240 120 Q270 100 300 110" stroke="#93c5fd" stroke-width="2" fill="none"/>
+                <path d="M60 32 L80 240" stroke="#bfdbfe" stroke-width="1.5"/>
+                <path d="M160 32 L140 240" stroke="#bfdbfe" stroke-width="1.5"/>
+                <circle cx="80" cy="100" r="7" fill="#dc2626"/>
+                <circle cx="190" cy="148" r="7" fill="#f97316"/>
+                <circle cx="245" cy="108" r="7" fill="#dc2626"/>
+                <rect x="300" y="32" width="180" height="208" fill="#fff"/>
+                <rect x="312" y="48" width="110" height="10" rx="2" fill="#1e3a8a"/>
+                <rect x="312" y="68" width="156" height="26" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+                <rect x="320" y="77" width="80" height="8" rx="2" fill="#dc2626"/>
+                <rect x="312" y="102" width="156" height="26" rx="4" fill="#fff7ed" stroke="#fed7aa" stroke-width="1"/>
+                <rect x="320" y="111" width="80" height="8" rx="2" fill="#ea580c"/>
+                <rect x="312" y="136" width="156" height="26" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+                <rect x="320" y="145" width="80" height="8" rx="2" fill="#dc2626"/>
+                <rect x="312" y="174" width="110" height="10" rx="2" fill="#374151"/>
+                <rect x="312" y="192" width="156" height="36" rx="4" fill="#f1f5f9"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">Smart Transit Crash Telemetry Hub</h3>
+              <p class="project-desc">A real-time transit crash telemetry dashboard connected to a live Railway backend API.</p>
+              <div class="project-links">
+                <a href="https://smart-transit-crash-telemetry-hub.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/Smart-Transit-Telemetry-" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- tnlea -->
+          <article class="project-card" id="project-tnlea">
+            <div class="project-thumb" style="background:#f8fafc;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="TNLEA website layout mockup">
+                <rect width="480" height="240" fill="#f8fafc"/>
+                <rect x="0" y="0" width="480" height="32" fill="#0f172a"/>
+                <rect x="16" y="10" width="60" height="12" rx="2" fill="#f1f5f9"/>
+                <rect x="260" y="10" width="44" height="12" rx="2" fill="#475569"/>
+                <rect x="312" y="10" width="44" height="12" rx="2" fill="#475569"/>
+                <rect x="364" y="10" width="44" height="12" rx="2" fill="#475569"/>
+                <rect x="416" y="8" width="48" height="16" rx="3" fill="#475569" opacity="0.4"/>
+                <rect x="0" y="32" width="480" height="90" fill="#1e293b"/>
+                <rect x="48" y="54" width="180" height="16" rx="3" fill="#f1f5f9"/>
+                <rect x="48" y="78" width="240" height="8" rx="2" fill="#64748b"/>
+                <rect x="48" y="96" width="70" height="18" rx="3" fill="#2563eb"/>
+                <rect x="16" y="138" width="136" height="88" rx="6" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                <rect x="16" y="138" width="136" height="50" rx="6" fill="#e2e8f0"/>
+                <rect x="26" y="194" width="80" height="8" rx="2" fill="#374151"/>
+                <rect x="26" y="210" width="60" height="8" rx="2" fill="#64748b"/>
+                <rect x="168" y="138" width="136" height="88" rx="6" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                <rect x="168" y="138" width="136" height="50" rx="6" fill="#e2e8f0"/>
+                <rect x="178" y="194" width="80" height="8" rx="2" fill="#374151"/>
+                <rect x="178" y="210" width="60" height="8" rx="2" fill="#64748b"/>
+                <rect x="320" y="138" width="144" height="88" rx="6" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                <rect x="320" y="138" width="144" height="50" rx="6" fill="#e2e8f0"/>
+                <rect x="330" y="194" width="80" height="8" rx="2" fill="#374151"/>
+                <rect x="330" y="210" width="60" height="8" rx="2" fill="#64748b"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">TNLEA</h3>
+              <p class="project-desc">A web application built and deployed on Vercel.</p>
+              <div class="project-links">
+                <a href="https://tnlea.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/tnlea" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- the-tusk-dental-clinic -->
+          <article class="project-card" id="project-tusk-dental">
+            <div class="project-thumb" style="background:#f0f9ff;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="The Tusk Dental Clinic website layout mockup">
+                <rect width="480" height="240" fill="#f0f9ff"/>
+                <rect x="0" y="0" width="480" height="32" fill="#ffffff" stroke="#e0f2fe" stroke-width="1"/>
+                <rect x="16" y="10" width="90" height="12" rx="2" fill="#0284c7"/>
+                <rect x="248" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="300" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="352" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="404" y="8" width="60" height="16" rx="3" fill="#0284c7"/>
+                <rect x="0" y="32" width="480" height="96" fill="#e0f2fe"/>
+                <rect x="48" y="52" width="180" height="16" rx="3" fill="#0c4a6e"/>
+                <rect x="48" y="76" width="240" height="8" rx="2" fill="#0369a1" opacity="0.5"/>
+                <rect x="48" y="96" width="90" height="20" rx="3" fill="#0284c7"/>
+                <rect x="16" y="144" width="104" height="84" rx="6" fill="#fff" stroke="#bae6fd" stroke-width="1"/>
+                <circle cx="68" cy="172" r="18" fill="#e0f2fe"/>
+                <rect x="38" y="198" width="60" height="8" rx="2" fill="#374151"/>
+                <rect x="38" y="212" width="60" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="132" y="144" width="104" height="84" rx="6" fill="#fff" stroke="#bae6fd" stroke-width="1"/>
+                <circle cx="184" cy="172" r="18" fill="#bae6fd"/>
+                <rect x="154" y="198" width="60" height="8" rx="2" fill="#374151"/>
+                <rect x="154" y="212" width="60" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="248" y="144" width="104" height="84" rx="6" fill="#fff" stroke="#bae6fd" stroke-width="1"/>
+                <circle cx="300" cy="172" r="18" fill="#e0f2fe"/>
+                <rect x="270" y="198" width="60" height="8" rx="2" fill="#374151"/>
+                <rect x="270" y="212" width="60" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="364" y="144" width="100" height="84" rx="6" fill="#fff" stroke="#bae6fd" stroke-width="1"/>
+                <circle cx="414" cy="172" r="18" fill="#bae6fd"/>
+                <rect x="384" y="198" width="60" height="8" rx="2" fill="#374151"/>
+                <rect x="384" y="212" width="60" height="8" rx="2" fill="#94a3b8"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">The Tusk Dental Clinic</h3>
+              <p class="project-desc">A dental clinic website showcasing services, appointments, and clinic information.</p>
+              <div class="project-links">
+                <a href="https://the-tusk-dental-clinic.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/the-tusk-dental-clinic" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- minutes24 -->
+          <article class="project-card" id="project-minutes24">
+            <div class="project-thumb" style="background:#fff1f2;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="Minutes24 website layout mockup">
+                <rect width="480" height="240" fill="#fff1f2"/>
+                <rect x="0" y="0" width="480" height="32" fill="#be123c"/>
+                <rect x="16" y="10" width="80" height="12" rx="2" fill="#ffe4e6"/>
+                <rect x="380" y="8" width="84" height="16" rx="3" fill="#fff"/>
+                <rect x="0" y="32" width="240" height="208" fill="#fff"/>
+                <rect x="20" y="56" width="130" height="14" rx="3" fill="#0f172a"/>
+                <rect x="20" y="78" width="190" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="20" y="94" width="170" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="20" y="118" width="75" height="22" rx="3" fill="#be123c"/>
+                <rect x="250" y="32" width="230" height="68" fill="#fff" stroke="#ffe4e6" stroke-width="1"/>
+                <rect x="258" y="40" width="44" height="44" rx="4" fill="#ffe4e6"/>
+                <rect x="310" y="46" width="120" height="8" rx="2" fill="#0f172a"/>
+                <rect x="310" y="62" width="100" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="250" y="102" width="230" height="68" fill="#fff" stroke="#ffe4e6" stroke-width="1"/>
+                <rect x="258" y="110" width="44" height="44" rx="4" fill="#fecdd3"/>
+                <rect x="310" y="116" width="120" height="8" rx="2" fill="#0f172a"/>
+                <rect x="310" y="132" width="100" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="250" y="172" width="230" height="68" fill="#fff" stroke="#ffe4e6" stroke-width="1"/>
+                <rect x="258" y="180" width="44" height="44" rx="4" fill="#ffe4e6"/>
+                <rect x="310" y="186" width="120" height="8" rx="2" fill="#0f172a"/>
+                <rect x="310" y="202" width="100" height="8" rx="2" fill="#94a3b8"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">Minutes24</h3>
+              <p class="project-desc">A news or content platform delivering updates and articles in a clean reading interface.</p>
+              <div class="project-links">
+                <a href="https://minutes24.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/minutes24" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- thorfitness -->
+          <article class="project-card" id="project-thorfitness">
+            <div class="project-thumb" style="background:#111827;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="Thorfitness website layout mockup">
+                <rect width="480" height="240" fill="#111827"/>
+                <rect x="0" y="0" width="480" height="32" fill="#1f2937"/>
+                <rect x="16" y="10" width="80" height="12" rx="2" fill="#f9fafb"/>
+                <rect x="260" y="10" width="44" height="12" rx="2" fill="#6b7280"/>
+                <rect x="312" y="10" width="44" height="12" rx="2" fill="#6b7280"/>
+                <rect x="364" y="10" width="44" height="12" rx="2" fill="#6b7280"/>
+                <rect x="416" y="8" width="48" height="16" rx="3" fill="#dc2626"/>
+                <rect x="0" y="32" width="480" height="110" fill="#1f2937"/>
+                <rect x="48" y="56" width="220" height="20" rx="3" fill="#f9fafb"/>
+                <rect x="48" y="84" width="170" height="10" rx="2" fill="#6b7280"/>
+                <rect x="48" y="104" width="85" height="20" rx="3" fill="#dc2626"/>
+                <rect x="16" y="156" width="136" height="72" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+                <rect x="26" y="168" width="60" height="8" rx="2" fill="#f9fafb"/>
+                <rect x="26" y="184" width="100" height="6" rx="2" fill="#6b7280"/>
+                <rect x="26" y="198" width="80" height="6" rx="2" fill="#6b7280"/>
+                <rect x="164" y="156" width="136" height="72" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+                <rect x="174" y="168" width="60" height="8" rx="2" fill="#f9fafb"/>
+                <rect x="174" y="184" width="100" height="6" rx="2" fill="#6b7280"/>
+                <rect x="174" y="198" width="80" height="6" rx="2" fill="#6b7280"/>
+                <rect x="312" y="156" width="152" height="72" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1"/>
+                <rect x="322" y="168" width="60" height="8" rx="2" fill="#f9fafb"/>
+                <rect x="322" y="184" width="110" height="6" rx="2" fill="#6b7280"/>
+                <rect x="322" y="198" width="90" height="6" rx="2" fill="#6b7280"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">Thorfitness</h3>
+              <p class="project-desc">A fitness brand website with a dark theme, showcasing programs, plans, and goals.</p>
+              <div class="project-links">
+                <a href="https://thorfitness.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/Thorfitness" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- mini2max -->
+          <article class="project-card" id="project-mini2max">
+            <div class="project-thumb" style="background:#f5f3ff;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="Mini2Max website layout mockup">
+                <rect width="480" height="240" fill="#f5f3ff"/>
+                <rect x="0" y="0" width="480" height="32" fill="#fff"/>
+                <rect x="16" y="10" width="80" height="12" rx="2" fill="#4f46e5"/>
+                <rect x="386" y="8" width="78" height="16" rx="3" fill="#4f46e5"/>
+                <rect x="0" y="32" width="240" height="208" fill="#ede9fe"/>
+                <rect x="24" y="60" width="140" height="16" rx="3" fill="#3730a3"/>
+                <rect x="24" y="84" width="190" height="8" rx="2" fill="#6d28d9" opacity="0.5"/>
+                <rect x="24" y="100" width="170" height="8" rx="2" fill="#6d28d9" opacity="0.5"/>
+                <rect x="24" y="124" width="75" height="22" rx="3" fill="#4f46e5"/>
+                <rect x="252" y="32" width="228" height="208" fill="#fff"/>
+                <rect x="264" y="52" width="170" height="10" rx="2" fill="#374151"/>
+                <rect x="264" y="70" width="90" height="8" rx="2" fill="#94a3b8"/>
+                <rect x="264" y="90" width="200" height="64" rx="6" fill="#ede9fe"/>
+                <rect x="264" y="166" width="200" height="64" rx="6" fill="#ede9fe"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">Mini2Max</h3>
+              <p class="project-desc">A web application built and deployed on Vercel.</p>
+              <div class="project-links">
+                <a href="https://mini2max.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/mini2max" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- tooth-co -->
+          <article class="project-card" id="project-tooth-co">
+            <div class="project-thumb" style="background:#f0fdfa;">
+              <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" aria-label="Tooth Co website layout mockup">
+                <rect width="480" height="240" fill="#f0fdfa"/>
+                <rect x="0" y="0" width="480" height="32" fill="#fff"/>
+                <rect x="16" y="10" width="70" height="12" rx="2" fill="#0d9488"/>
+                <rect x="248" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="300" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="352" y="10" width="44" height="12" rx="2" fill="#94a3b8"/>
+                <rect x="404" y="8" width="60" height="16" rx="3" fill="#0d9488"/>
+                <rect x="0" y="32" width="480" height="92" fill="#ccfbf1"/>
+                <rect x="48" y="52" width="170" height="16" rx="3" fill="#134e4a"/>
+                <rect x="48" y="76" width="230" height="8" rx="2" fill="#0f766e" opacity="0.5"/>
+                <rect x="48" y="96" width="84" height="20" rx="3" fill="#0d9488"/>
+                <rect x="16" y="140" width="104" height="88" rx="6" fill="#fff" stroke="#99f6e4" stroke-width="1"/>
+                <rect x="16" y="140" width="104" height="52" rx="6" fill="#ccfbf1"/>
+                <rect x="26" y="200" width="70" height="8" rx="2" fill="#374151"/>
+                <rect x="26" y="214" width="50" height="8" rx="2" fill="#0d9488"/>
+                <rect x="132" y="140" width="104" height="88" rx="6" fill="#fff" stroke="#99f6e4" stroke-width="1"/>
+                <rect x="132" y="140" width="104" height="52" rx="6" fill="#99f6e4"/>
+                <rect x="142" y="200" width="70" height="8" rx="2" fill="#374151"/>
+                <rect x="142" y="214" width="50" height="8" rx="2" fill="#0d9488"/>
+                <rect x="248" y="140" width="104" height="88" rx="6" fill="#fff" stroke="#99f6e4" stroke-width="1"/>
+                <rect x="248" y="140" width="104" height="52" rx="6" fill="#ccfbf1"/>
+                <rect x="258" y="200" width="70" height="8" rx="2" fill="#374151"/>
+                <rect x="258" y="214" width="50" height="8" rx="2" fill="#0d9488"/>
+                <rect x="364" y="140" width="100" height="88" rx="6" fill="#fff" stroke="#99f6e4" stroke-width="1"/>
+                <rect x="364" y="140" width="100" height="52" rx="6" fill="#99f6e4"/>
+                <rect x="374" y="200" width="70" height="8" rx="2" fill="#374151"/>
+                <rect x="374" y="214" width="50" height="8" rx="2" fill="#0d9488"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vercel</span>
+              </div>
+              <h3 class="project-title">Tooth Co</h3>
+              <p class="project-desc">A dental product e-commerce or clinic website with a clean teal design.</p>
+              <div class="project-links">
+                <a href="https://tooth-co.vercel.app" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Site</a>
+                <a href="https://github.com/MTG1523/Tooth-co" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section section-alt">
+      <div class="container edu-cert-grid">
+
+        <div>
+          <h2 class="section-heading">Education</h2>
+          <ul class="edu-list">
+
+            <li class="edu-item">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <h3 class="edu-degree">Bachelor of Engineering, Computer Science and Engineering</h3>
+                <p class="edu-school">Easwari Engineering College (SRM Group)</p>
+                <p class="edu-date">Jul 2026 - Jul 2029</p>
+              </div>
+            </li>
+
+            <li class="edu-item">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <h3 class="edu-degree">Diploma, Computer Engineering</h3>
+                <p class="edu-school">Murugappa Polytechnic College</p>
+                <p class="edu-date">2023 - 2026</p>
+                <p class="edu-note">80% — First class with distinction</p>
+              </div>
+            </li>
+
+            <li class="edu-item">
+              <div class="edu-dot"></div>
+              <div class="edu-body">
+                <h3 class="edu-degree">10th Standard (CBSE)</h3>
+                <p class="edu-school">Sri Venkateswara Vidhyalaya CBSE</p>
+                <p class="edu-date">2022 - 2023</p>
+                <p class="edu-note">Grade: 73.4%</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="section-heading">Certifications</h2>
+          <ul class="cert-list">
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Software Engineering Job Simulation</p>
+                <p class="cert-issuer">Electronic Arts (EA) — May 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">React Bootcamp</p>
+                <p class="cert-issuer">LetsUpgrade — May 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Data Science Course</p>
+                <p class="cert-issuer">Cisco Networking Academy — Apr 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Node.js Bootcamp</p>
+                <p class="cert-issuer">LetsUpgrade — Apr 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Python ATM Simulation Essentials Mini Project</p>
+                <p class="cert-issuer">LetsUpgrade — Apr 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Data Visualisation: Empowering Business with Effective Insights</p>
+                <p class="cert-issuer">Tata Group — Apr 2026</p>
+              </div>
+            </li>
+
+            <li class="cert-item">
+              <div class="cert-body">
+                <p class="cert-name">Data Analytics Job Simulation</p>
+                <p class="cert-issuer">Deloitte — Apr 2026</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <h2 class="section-heading">Contact</h2>
+          <p class="contact-intro">
+            Open to internship and junior developer opportunities. Based in Greater Chennai Area. Responses within one business day.
+          </p>
+          <ul class="contact-details">
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="17" height="17" aria-hidden="true">
+                <path d="M2.5 5.5l7.5 5 7.5-5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+                <rect x="1.5" y="4" width="17" height="12" rx="2" stroke="#64748b" stroke-width="1.5"/>
+              </svg>
+              <a href="mailto:mokaanth@example.com">mokaanth@example.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="17" height="17" aria-hidden="true">
+                <rect x="2" y="2" width="16" height="16" rx="3" stroke="#64748b" stroke-width="1.5"/>
+                <path d="M6 9v5M6 7v.5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M10 14v-3a2 2 0 014 0v3M10 9v5" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <a href="https://www.linkedin.com/in/mokaanth-dasarathan-7271282a5/" target="_blank" rel="noopener noreferrer">linkedin.com/in/mokaanth-dasarathan</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="17" height="17" aria-hidden="true">
+                <path d="M10 2C5.58 2 2 5.58 2 10c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 012-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0018 10c0-4.42-3.58-8-8-8z" fill="#64748b"/>
+              </svg>
+              <a href="https://github.com/MTG1523" target="_blank" rel="noopener noreferrer">github.com/MTG1523</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" width="17" height="17" aria-hidden="true">
+                <path d="M10 2C7.24 2 5 4.24 5 7c0 3.75 5 11 5 11s5-7.25 5-11c0-2.76-2.24-5-5-5z" stroke="#64748b" stroke-width="1.5"/>
+                <circle cx="10" cy="7" r="2" stroke="#64748b" stroke-width="1.5"/>
+              </svg>
+              <span>Greater Chennai Area, India</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" autocomplete="name" required placeholder="Jane Smith" />
+            <span class="field-error" id="error-name" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" autocomplete="email" required placeholder="jane@example.com" />
+            <span class="field-error" id="error-email" role="alert"></span>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" required placeholder="Describe your project or opportunity."></textarea>
+            <span class="field-error" id="error-message" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-contact">Send Message</button>
+          <p class="form-success" id="form-success" hidden>
+            Message received. I will be in touch within one business day.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">Mokaanth Dasarathan &copy; 2026</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms and Conditions</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
